@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Kufi+Arabic:wght@400;500;600;700&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Merriweather", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-arabic: "Noto Kufi Arabic", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  body.natural {
+    background-color: #fdfaf6;
+    color: #4a443f;
+  }
+}
